@@ -1,0 +1,79 @@
+/**SHOPNOW CSS**/
+
+
+
+div.gallery {
+  margin: 4px;
+  border: 1px solid #ccc;
+  float: inline-start;
+  width: 240px;
+  height: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 240px;
+  height: 180px;
+  padding: 0 0 0 ;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row;
+
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    
+  
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+
+  }
+
+
+  .flex-item{
+
+    
+    list-style: none;
+    width:250px;
+    height: 300px;
+    padding: 0%;
+    margin: 10px;
+    background-color: aquamarine;
+
+    flex: 0 1 auto;             /** flex-grow,fresh-shrink,flex-basis: 0 1 auto; **/
+    -ms-flex-item-align: center;
+  }
+
+  .flex-item .img-thumbnail{
+    border-image: 600px;
+    size: 250px 220px;
+    
+  }
+
+  .flex-item:hover{
+    
+    
+  }
